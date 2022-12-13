@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../images/background-image.jpg');
+}
+.project_list{
+    width: 500px;
+    padding: 4px;
+    margin: 50px auto;
+    background: #BD8BE4;
+}
+.project_list a{
+    text-decoration: none;
+    color: rgb(219, 20, 86);
+    font-size: 30px;
+}
+.project_list ul{
+    list-style: none;
+    padding: 40px 5px;
+}
