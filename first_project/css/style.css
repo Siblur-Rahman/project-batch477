@@ -79,5 +79,6 @@ p {
 /* Descendent Selector */
 p a {
     text-transform: capitalize;
-    color: rgb(175, 175, 207);
+    color: 
+    rgb(175, 175, 207);
 }
