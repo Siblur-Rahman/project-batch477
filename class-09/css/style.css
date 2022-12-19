@@ -1,7 +1,42 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/pexels-photo-255379.webp) no-repeat;
+    background-size: cover;
+    color: white;
+}
 #admin-box{
-    background-color: #806AF1;
+    background-color: #7B76F7;
     text-align: center;
-    width: 50%;
-    margin: 10% auto;
+    width: 300px;
+    height: 400px;
+    margin: 5% auto;
     padding: 20px;
+    border-radius: 5px;
+    /* transform: translate(-50%, -50%); */
+}
+.heading{
+    color: white;
+    text-transform: uppercase;
+}
+.textbox{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px o;
+    margin: 8px 0;
+}
+.textbox i{
+    color: whitesmoke;
+}
+.link{
+    margin-top: 10%;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+.adminbox h1{
+    text-transform: uppercase;
 }
