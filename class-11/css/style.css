@@ -9,7 +9,31 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Titillium Web;
+    font-family: Titillium Web, sans-serif;
+}
+.btn{
+    width: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+}
+section{
+  padding: 75px 0;
+  text-align: center;
+}
+p{
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 300px;
+}
+.heading{
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
 }
 /* Layout */
 .container{
@@ -39,30 +63,61 @@ body{
 /* Header part  */
 header {
     background-color: #87509c;
-    width: 100%;
-    float: left;
+    color: #fff;
   }
   nav {
-    width: 100%;
-    float: left;
+    padding: 10px 0;
+  }
+  .menu-part{
+
+  }
+  .menu-part ul{
+    text-align: end;
+    padding: 7px 0px;
+  }
+  .menu-part li{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  .menu-part li:hover{
+    background-color: #643a79;
+    border-radius: 5px;
+  }
+  .menu-part li a{
+    color: #fff;
+    font-weight: 600;
   }
   .hero-part {
-    width: 100%;
-    float: left;
+    text-align: center;
+    padding: 150px 100px;
+  }
+  .hero-part h1{
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 50px;
+  }
+  .hero-part button{
+    background-color: #eb7d4b;
   }
 
   /* Service Section */
-  #sirvice{
+#service{
+    background-color: #17c2a4;
 
-  }
+    color: #fff;
+}
   /* Team Section */
   #team{
-
+  background-color: #e7f1f8;
+  color: #3c4761;
   }
 
   /* Skill section */
   #skill{
-    
+    background-color: #fff;
+
+    color: #3c4761;
   }
   /* Footer part  */
   footer {
