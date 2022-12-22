@@ -9,6 +9,10 @@
 body{
     background-color: tomato;
 }
+.homework-list-btn{
+    margin: 10px 20px; 
+    padding: 10px;
+}
 
 /* Id selector */
 #admin-box{

@@ -1,4 +1,10 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +13,11 @@ body{
     background-size: cover;
     color: white;
 }
+.homework-list-btn{
+    margin: 10px 20px; 
+    padding: 10px;
+}
+
 #admin-box{
     background-color: #7B76F7;
     text-align: center;
