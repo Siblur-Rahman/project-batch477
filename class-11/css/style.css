@@ -29,11 +29,32 @@ p{
   line-height: 17px;
   font-weight: 300px;
 }
+a{
+  text-transform: uppercase;
+}
 .heading{
   font-size: 35px;
   line-height: 35px;
   font-weight: 600;
   letter-spacing: 1.2px;
+}
+.sub-heading{
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.underline{
+  border: 2px solid #14a58c;
+  width: 7%;
+  margin: 10px auto;
+}
+.writing-part{
+  margin-bottom: 50px;
+}
+.box{
+  padding: 0 25px;
 }
 /* Layout */
 .container{
@@ -68,9 +89,6 @@ header {
   nav {
     padding: 10px 0;
   }
-  .menu-part{
-
-  }
   .menu-part ul{
     text-align: end;
     padding: 7px 0px;
@@ -104,7 +122,6 @@ header {
   /* Service Section */
 #service{
     background-color: #17c2a4;
-
     color: #fff;
 }
   /* Team Section */
@@ -112,18 +129,100 @@ header {
   background-color: #e7f1f8;
   color: #3c4761;
   }
+  #team p{
+    padding: 0 4px 20px 20px;
+  }
+  #team .underline{
+    padding: 0;
+  }
+.team-icons i{
+  width: 45px;
+  background-color: #fff;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
 
+}
   /* Skill section */
   #skill{
     background-color: #fff;
 
     color: #3c4761;
   }
+  /* Portfolio part */
+  #portfolio{
+    background-color: #ffdd99;
+  }
+  #portfolio ul{
+    text-align: center;
+    padding: 7px 0px;
+  }
+  #portfolio li{
+    display: inline-block;
+    background-color: #ebc985;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  #portfolio li:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  #portfolio li a{
+    color: #5c5446;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  #portfolio img{
+    margin: 35px 0 10px 0;
+  }
+  #portfolio button{
+    background-color: #17c2a4;
+  }
+  /* About us part */
+  #about-us{
+    background-color: #d74680;
+    color: #fff;
+  }
+  #about-us img{
+    width: 89%;
+  }
+  #about-us .box-part{
+    margin:30px 0;
+    text-align: left;
+  }
+  /* Message part */
+  #message{
+    background-color: #3c5499;
+  }
+  #message button{
+    background-color: #30bae7;
+  }
   /* Footer part  */
   footer {
     background-color: #344b8e;
+    padding: 30px 0;
   }
-
+  footer li{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 5px;
+  }
+  footer ul{
+    width: 90%;
+    margin: auto;
+    padding: 7px 0px;
+    text-align: center;
+  }
+  footer a{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+  }
+  footer a:hover{
+   color: #30bae7;
+  }
 .homework-list-btn{
     margin: 10px 20px; 
     padding: 10px;
