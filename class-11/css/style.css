@@ -201,6 +201,9 @@ header {
     background-color: #d74680;
     color: #fff;
   }
+  #about-us .underline{
+    border: 1px solid #b73c6d;
+  }
   #about-us img{
     width: 89%;
   }
@@ -222,12 +225,9 @@ header {
   input{
     width: 100%;
     margin-bottom: 20px;
-    padding: 5px 0;
+    padding: 5px 10px;
     background-color: #273a71;
     color:#fff;
-  }
-  #message-box .row{
-
   }
  .user-name{
     width: 45%;
@@ -240,11 +240,16 @@ header {
   textarea{
     font-size: 15px;
     width: 100%;
+    padding: 5px 10px;
     background-color: #273a71;
     color: rgb(236, 222, 222);
+    text-align: left;
+  }
+  input, textarea{
+    border-radius: 3px;
   }
   #message button{
-    background-color: #30bae7;
+    background-color: #30bae7 !important;
   }
   /* Footer part  */
   footer {
