@@ -11,45 +11,62 @@
 body{
     font-family: Titillium Web, sans-serif;
 }
-.btn{
+/* .btn{
     width: 200px;
     margin-top: 50px;
     padding: 10px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 18pt;
+    font-weight: 600;
     color: #fff;
     border-radius: 5px;
+} */
+.btn {
+	width: 310px;
+	margin-top: 50px;
+	padding: 20px 10px;
+	font-size: 18pt;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 5px;
 }
 section{
   padding: 75px 0;
   text-align: center;
 }
 p{
-  font-size: 15px;
+  font-size: 16pt;
   /* font-size: 17px; */
-  line-height: 17px;
-  font-weight: 300px;
+  /* line-height: 17px; */
+  font-weight: 300;
 }
-.nd-p{
- width: 46%;
- margin: auto;
+.nd-p {
+	width: 65%;
+	margin: auto;
+	font-size: 18pt;
 }
 a{
   text-transform: uppercase;
 }
 .heading{
-  font-size: 35px;
-  line-height: 35px;
-  font-weight: 600;
-  letter-spacing: 1.2px;
+  font-size: 40pt;
+  /* line-height: 35px; */
+  font-weight: bold;
+  /* letter-spacing: 1.2px; */
 }
-.sub-heading{
+.sub-heading {
+	margin: 10px 0;
+	text-transform: uppercase;
+	font-size: 24pt;
+	line-height: 24pt;
+	font-weight: bold;
+}
+/* .sub-heading{
   margin: 10px 0;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 25px;
   font-weight: 600;
-}
+} */
 .underline{
   width: 7%;
   margin: 10px auto;
@@ -58,7 +75,7 @@ a{
   margin-bottom: 50px;
 }
 .box{
-  padding: 0 25px;
+  padding: 0 13px;
 }
 /* Layout */
 .container{
@@ -106,18 +123,22 @@ header {
     background-color: #643a79;
     border-radius: 5px;
   }
-  .menu-part li a{
+  /* .menu-part li a{
     color: #fff;
     font-weight: 600;
+  } */
+  .menu-part li a {
+    color: #fff;
+    font-size: 16pt;
   }
   .hero-part {
     text-align: center;
-    padding: 150px 100px;
+    padding: 150px 40px;
   }
   .hero-part h1{
-    font-size: 50px;
-    font-weight: 700px;
-    line-height: 50px;
+    font-size: 42.16pt;
+    font-weight: bold;
+    /* line-height: 50px; */
   }
   .hero-part button{
     background-color: #eb7d4b;
@@ -136,8 +157,11 @@ header {
   background-color: #e7f1f8;
   color: #3c4761;
   }
-  #team p{
+  /* #team p{
     padding: 0 4px 20px 20px;
+  } */
+  #team p {
+    padding: 0 4px 10px 7px;
   }
   #team .underline{
     padding: 0;
@@ -185,13 +209,21 @@ header {
     background-color: #ffffff;
     border-radius: 5px;
   }
-  #portfolio li a{
+  /* #portfolio li a{
     color: #5c5446;
     text-transform: uppercase;
     font-weight: 600;
+  } */
+  #portfolio li a {
+    color: #5c5446;
+    text-transform: uppercase;
+    font-size: 18pt;
   }
   #portfolio img{
     margin: 35px 0 10px 0;
+  }
+  #portfolio {
+    font-size: 18pt;
   }
   #portfolio button{
     background-color: #17c2a4;
@@ -200,6 +232,9 @@ header {
   #about-us{
     background-color: #d74680;
     color: #fff;
+  }
+  #about-us p{
+    font-style: italic;
   }
   #about-us img{
     width: 89%;
@@ -220,25 +255,30 @@ header {
     margin: auto;
   }
   input{
+    font-size: 18pt;
     width: 100%;
     margin-bottom: 20px;
-    padding: 5px 0;
+    padding: 5px 10px;
     background-color: #273a71;
     color:#fff;
   }
   #message-box .row{
 
   }
- .user-name{
+ /* .user-name{
     width: 45%;
     margin-right: 5%;
+  } */
+  .user-name {
+    width: 48%;
+    margin-right: 2%;
   }
-  .email{
-    width: 45%;
-    margin-left: 5%;
+  .email {
+    width: 48%;
+    margin-left: 2%;
   }
   textarea{
-    font-size: 15px;
+    font-size: 18pt;
     width: 100%;
     background-color: #273a71;
     color: rgb(236, 222, 222);
