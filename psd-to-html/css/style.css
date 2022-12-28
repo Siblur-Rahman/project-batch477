@@ -11,15 +11,6 @@
 body{
     font-family: Titillium Web, sans-serif;
 }
-/* .btn{
-    width: 200px;
-    margin-top: 50px;
-    padding: 10px;
-    font-size: 18pt;
-    font-weight: 600;
-    color: #fff;
-    border-radius: 5px;
-} */
 .btn {
 	width: 310px;
 	margin-top: 50px;
@@ -35,8 +26,6 @@ section{
 }
 p{
   font-size: 16pt;
-  /* font-size: 17px; */
-  /* line-height: 17px; */
   font-weight: 300;
 }
 .nd-p {
@@ -49,9 +38,7 @@ a{
 }
 .heading{
   font-size: 40pt;
-  /* line-height: 35px; */
-  font-weight: bold;
-  /* letter-spacing: 1.2px; */
+  font-weight: bold;/
 }
 .sub-heading {
 	margin: 10px 0;
@@ -60,13 +47,6 @@ a{
 	line-height: 24pt;
 	font-weight: bold;
 }
-/* .sub-heading{
-  margin: 10px 0;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 600;
-} */
 .underline{
   width: 7%;
   margin: 10px auto;
@@ -123,10 +103,6 @@ header {
     background-color: #643a79;
     border-radius: 5px;
   }
-  /* .menu-part li a{
-    color: #fff;
-    font-weight: 600;
-  } */
   .menu-part li a {
     color: #fff;
     font-size: 16pt;
@@ -157,9 +133,6 @@ header {
   background-color: #e7f1f8;
   color: #3c4761;
   }
-  /* #team p{
-    padding: 0 4px 20px 20px;
-  } */
   #team p {
     padding: 0 4px 10px 7px;
   }
@@ -209,11 +182,6 @@ header {
     background-color: #ffffff;
     border-radius: 5px;
   }
-  /* #portfolio li a{
-    color: #5c5446;
-    text-transform: uppercase;
-    font-weight: 600;
-  } */
   #portfolio li a {
     color: #5c5446;
     text-transform: uppercase;
@@ -265,10 +233,6 @@ header {
   #message-box .row{
 
   }
- /* .user-name{
-    width: 45%;
-    margin-right: 5%;
-  } */
   .user-name {
     width: 48%;
     margin-right: 2%;
