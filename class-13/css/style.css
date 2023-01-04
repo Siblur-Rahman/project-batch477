@@ -146,6 +146,14 @@ header {
     padding: 0;
     border: 1px solid #c8d9e5;
   }
+  #team .box {
+    position: relative;
+    height: 400px;
+  }
+  #team .team-icons {
+    position: absolute;
+    bottom: 0;
+}
 .team-icons i{
   width: 45px;
   background-color: #fff;
@@ -413,6 +421,14 @@ header {
     padding: 0;
     border: 1px solid #c8d9e5;
   }
+  #team .box {
+    position: relative;
+    height: 370px;
+  }
+  #team .team-icons {
+    position: absolute;
+    bottom: 0;
+}
   .team-icons i {
     width: 40px;
     background-color: #c14646;
